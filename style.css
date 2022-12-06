@@ -1,13 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 
+@font-face {
+  font-family: "mail";
+  src: url("./tipografías/cooperl.ttf");
+}
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 25px;
-    list-style: none;
-    
-    
+    font-weight: lighter;
+    color: #494848;
   }
   
   
@@ -37,12 +41,15 @@
   .content {
     display: inline-block;
     width: 40%;
+    
   }
   
   .content-tittle {
     padding-top: 40px;
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 20px;
+    font-family: "mail";
+    color: #000000;
   }
   
   
@@ -51,12 +58,22 @@
     font-weight: bold;
     padding-bottom: 5px;
     font-size: 15px;
+    color: #000000;
+  }
+
+  .blue-eye{
+    margin-right: 80px;
+  }
+
+  .imgeye{
+    width: 20px;
   }
   
   input {
       height: 30px;
+      width: 90%;
+      border: 1px solid #d0d0d0;
     }
-  
   
   
   .list1 {
@@ -77,27 +94,18 @@
     padding-right: 30px;
     font-size: small;
     padding-top: 30px;
+    margin-right: 100px;
   }
   
-  
-  .eye{
-      list-style: url(./imágenes/ver.png);
-      
+  ul{
+    list-style-type: disc;
   }
   
-  li::before {
-  
-      /* Unicode for a bullet */
-      content: "\2022";
-        
-      /* Styles for Indentation*/
-      color: #007c89; 
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
+  li::marker{
+    color: #007c89; 
+    font-size: 25px;
+    
   }
-  
-  
   
   .send {
     float: left;
@@ -117,16 +125,24 @@
     float: left;
     padding-left: 40px;
     padding-top: 15px;
+    width:25px;
+    height:25px;
     
   }
+
+  .check1{
+    
+  }
+
   .texto {
     float: left;
     padding-left: 20px;
     width: 50%;
     padding-top: 15px;
+    size: 20px;
   }
   
-  
+
   .recurso {
     clear: both;
   }
