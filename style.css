@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "mail";
-  src: url("./tipografías/cooperl.ttf");
+  src: url("./tipografias/cooperl.ttf");
 }
 
 * {
@@ -130,9 +130,7 @@
     
   }
 
-  .check1{
-    
-  }
+
 
   .texto {
     float: left;
